@@ -42,7 +42,7 @@ class Program
             Console.Write("Do you wish to play again? (yes/no): ");
             playAgain = Console.ReadLine()?.ToLower();
 
-        } while (playAgain == "yes"); // Fixed comparison syntax '=='
+        } while (playAgain == "yes");
 
         Console.WriteLine("Thank you for playing!");
     }
