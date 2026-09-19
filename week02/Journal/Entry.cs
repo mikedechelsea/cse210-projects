@@ -4,7 +4,7 @@ public class Entry
 {
     public string _prompt = "";
     public string _userResponse = "";
-    public string _entryDate = ""; // Fixed: Initialized to avoid compiler warnings
+    public string _entryDate = ""; 
 
     public void Display()
     {
